@@ -1,0 +1,1 @@
+Example of the service, usage and contract.

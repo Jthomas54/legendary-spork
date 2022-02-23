@@ -1,0 +1,17 @@
+syntax = "proto3";
+package iam;
+
+option go_package = "github.com/Jthomas54/apt/service/iam";
+
+
+service Example {
+  rpc GetExample (ExampleRequest) returns (ExampleResponse) {}
+}
+
+message ExampleRequest {
+  string name = 1;
+}
+
+message ExampleResponse {
+  string message = 1;
+}
